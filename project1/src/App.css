@@ -1,0 +1,22 @@
+html, body, #root, .App, #mapContainer {
+    height: 100%;
+}
+
+.col-xs-10 {width:100%; float:left;}
+.col-xs-25 {width:25%; float:left;}
+.col-xs-33 {width:33%; float:left;}
+
+
+@media only screen and (min-width: 768px) {
+    .col-sm-10 {width:100%; float:left;}
+    .col-sm-25 {width:25%; float:left;}
+}
+
+@media only screen and (min-width: 992px) {
+    /* md */
+    .col-md-1 { width:10%; float:left;}
+    .col-md-2 { width:20%; float:left;}
+    .col-md-3 { width:30%; float:left;}
+    .col-md-6 { width:60%; float:left;}
+    .col-md-10 { width:100%; float:left;}
+}
